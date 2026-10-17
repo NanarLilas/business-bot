@@ -1,0 +1,4 @@
+google-genai>=1.50
+gradio>=5.0
+pypdf>=5.0
+python-dotenv>=1.0
