@@ -47,7 +47,7 @@ Both tools print what they record and append it to a file in `logs/`. Their sche
 ## Project structure
 
 ```
-business_bot/
+C3:business_bot/
 ├── me/
 │   ├── about_business.pdf     # Full business profile
 │   └── business_summary.txt   # Short business summary
@@ -87,7 +87,7 @@ You need a Gemini API key, which you can get for free from [Google AI Studio](ht
 
 ### Google Colab
 
-1. Upload the `business_bot` folder to `MyDrive/business_bot` in Google Drive.
+1. Upload the `C3:business_bot` folder to `MyDrive/C3:business_bot` in Google Drive.
 2. Open `business_agent.ipynb` in Colab.
 3. In the 🔑 **Secrets** panel, add a secret named `GEMINI_API_KEY` and turn on **Notebook access**.
 4. Run all cells. The first cell installs the libraries and connects Google Drive. The last cell launches the chat and prints a public link.
