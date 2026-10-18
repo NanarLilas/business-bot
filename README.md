@@ -87,11 +87,10 @@ You need a Gemini API key, which you can get for free from [Google AI Studio](ht
 
 ### Google Colab
 
-1. Upload the `C3:business_bot` folder to `MyDrive/C3:business_bot` in Google Drive.
+1. Upload the `C3_Business_bot` folder to `MyDrive` in Google Drive, then rename it to `C3:Business_bot`.
 2. Open `business_agent.ipynb` in Colab.
 3. In the 🔑 **Secrets** panel, add a secret named `GEMINI_API_KEY` and turn on **Notebook access**.
-4. Run all cells. The first cell installs the libraries and connects Google Drive. The last cell launches the chat and prints a public link.
-
+4. Run all cells. The first cells connect Google Drive and install the libraries. The last cell launches the chat and prints a public link.
 ### Running locally
 
 ```bash
